@@ -3,13 +3,14 @@ body {
 	margin: 0;
 	background: #ffeeff;
 	color: #443366;
+	line-height: 1.5;
 }
 
 h1 {
 	background: #443366;
 	margin: 0;
 	padding: 50px;
-	color: white;
+	color: #eeffaa;
 }
 
 #main {
@@ -22,5 +23,14 @@ dt {
 
 dd::before {
 	content: "- ";
+}
+p, dt, dd, h2 {
+	position: relative;
+	transition: left, 0.5s;
+	left: 0;
+}
+
+p:hover, dt:hover, dd:hover, h2:hover {
+	left: 5px;
 }
 
