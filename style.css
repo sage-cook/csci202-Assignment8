@@ -1,0 +1,26 @@
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	background: #ffeeff;
+	color: #443366;
+}
+
+h1 {
+	background: #443366;
+	margin: 0;
+	padding: 50px;
+	color: white;
+}
+
+#main {
+	padding: 50px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd::before {
+	content: "- ";
+}
+
